@@ -1,5 +1,7 @@
 # psu-progs
 
+[![PyPI version](https://badge.fury.io/py/psu-progs.svg)](https://badge.fury.io/py/psu-progs)
+
 A collection of utilities to put a computer-connected power supplies to good use.
 
 The extraordinarily compact collection includes only a CLI tool for charging lithium-ion batteries with a Korad PSU.
