@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "psu-progs"
+version = "0.1.0"
+description = "CLI tools for Korad power supplies, including lithium ion battery charging"
+authors = ["Zach \"theY4Kman\" Kanzler <they4kman@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "psu_progs"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.3"
+pyserial = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+korad-charge-lithium-ion = "psu_progs.charge_lithium_ion:charge"
