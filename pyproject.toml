@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "psu-progs"
-version = "0.1.0"
+version = "0.1.1"
 description = "CLI tools for Korad power supplies, including lithium ion battery charging"
 authors = ["Zach \"theY4Kman\" Kanzler <they4kman@gmail.com>"]
 license = "MIT"
